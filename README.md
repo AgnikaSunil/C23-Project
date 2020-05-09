@@ -1,6 +1,2 @@
-# C23 Stick Castle
-
-
-OUTPUT LINK
-
-https://agnikasunil.github.io/C23-Project/
+# p5.play-boilerplate
+Boiler plate for p5.play

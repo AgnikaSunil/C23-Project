@@ -12,6 +12,7 @@ class Ground{
         
         rectMode(CENTER);
         fill(255);
+        translate(170,0);
         rect(posX,posY,this.width,this.height);
     }
 }

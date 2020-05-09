@@ -15,9 +15,10 @@ class Circle{
         var posY = this.body.position.y;
 
         push();
+        translate(200,0);
         strokeWeight(4);
-        stroke("orange");
-        fill("yellow");
+        stroke("yellow");
+        fill("orange");
         ellipse(posX,posY,this.width);
         pop();
     }

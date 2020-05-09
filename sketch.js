@@ -3,7 +3,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 
 var engine,world;
-var tower1,tower2,tower3,tower4,tower5,pillar1,pillar2,cover;
+var tower1,tower2,tower3,tower4,tower5,pillar1,pillar2;
 var ground;
 var top1,top2;
 
@@ -22,13 +22,12 @@ function setup() {
   tower5 = new Rectangle(180,385,53,170,"#B5651D");
   pillar1 = new Rectangle(40,330,20,400,"#FFDAB9");
   pillar2 = new Rectangle(320,330,20,400,"#FFDAB9");
-  cover = new Rectangle(600,200,400,400,"white");
 
   lamp1 = new Circle(39,116,15);
   lamp2 = new Circle(320,116,15);
   
-  top1 = new Triangle(283,160,3,30,PI/2,"pink");
-  top2 = new Triangle(86,180,3,30,PI/2,"pink");
+  top1 = new Triangle(283,160,3,30,"red");
+  top2 = new Triangle(89,180,3,30,"red");
 }
 
 function draw() {
@@ -48,5 +47,5 @@ function draw() {
   ground.display();
   top1.display();
   top2.display();
-  cover.display();
+ 
 }

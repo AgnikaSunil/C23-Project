@@ -17,9 +17,10 @@ class Rectangle{
         var posY = this.body.position.y;
         push();
         rectMode(CENTER);
-        strokeWeight(1);
-        stroke("white");
+        strokeWeight(3);
+        stroke("brown");
         fill(this.color);
+        translate(200,0);
         rect(posX,posY,this.width,this.height);
         pop();
     }
