@@ -16,7 +16,7 @@ class Circle{
 
         push();
         translate(200,0);
-        strokeWeight(5);
+        strokeWeight(4);
         stroke("yellow");
         fill("orange");
         ellipse(posX,posY,this.width);
