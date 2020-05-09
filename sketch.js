@@ -49,6 +49,4 @@ function draw() {
   top1.display();
   top2.display();
   cover.display();
-
-  drawSprites();
 }
