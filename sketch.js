@@ -23,8 +23,8 @@ function setup() {
   pillar1 = new Rectangle(40,330,20,400,"#FFDAB9");
   pillar2 = new Rectangle(320,330,20,400,"#FFDAB9");
 
-  lamp1 = new Circle(39,116,15);
-  lamp2 = new Circle(320,116,15);
+  lamp1 = new Circle(39,116,8);
+  lamp2 = new Circle(320,116,8);
   
   top1 = new Triangle(283,160,3,30,"red");
   top2 = new Triangle(89,180,3,30,"red");
