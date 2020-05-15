@@ -19,7 +19,7 @@ class Circle{
         strokeWeight(4);
         stroke("yellow");
         fill("orange");
-        ellipseMode(RADIUS)
+        ellipseMode(RADIUS);
         ellipse(posX,posY,this.width);
         pop();
     }
